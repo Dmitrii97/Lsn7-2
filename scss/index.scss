@@ -1,0 +1,29 @@
+@import "colors.scss";
+@import "mixins";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2%;
+    background-color: $greycolor;
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    .div2,
+    .div3,
+    .div4,
+    .div5 {
+        margin-top: 2%;
+    }
+    fieldset {
+        border: 0px;
+    }
+    .button {
+        padding: 1%;
+        margin: 2%;
+        background-color: aqua;
+        width: 10%;
+    }
+}

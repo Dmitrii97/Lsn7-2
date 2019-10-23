@@ -1,0 +1,35 @@
+input,
+text,
+textarea {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2%;
+  background-color: #918f8f;
+  border: 2px solid black;
+  width: 30%;
+}
+.container .div2,
+.container .div3,
+.container .div4,
+.container .div5 {
+  margin-top: 2%;
+}
+.container fieldset {
+  border: 0px;
+}
+.container .button {
+  padding: 1%;
+  margin: 2%;
+  background-color: aqua;
+  width: 10%;
+}
+
+/*# sourceMappingURL=index.css.map */
